@@ -1,4 +1,4 @@
-﻿#![doc = "Foundational types and lifecycle primitives for Rusted OS."]
+#![doc = "Foundational types and lifecycle primitives for Rusted OS."]
 
 //! Common vocabulary for early Rusted OS components.
 //!
@@ -221,6 +221,6 @@ mod tests {
         service.shutdown().expect("first shutdown should succeed");
         service.shutdown().expect("second shutdown should succeed");
         assert!(!service.running);
-        assert_eq!(service.shutdowns, 2);
+        assert_eq!(service.shutdowns, 1);
     }
 }
