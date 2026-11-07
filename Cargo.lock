@@ -5,6 +5,9 @@ version = 4
 [[package]]
 name = "rusted-config"
 version = "0.1.0"
+dependencies = [
+ "rusted-core",
+]
 
 [[package]]
 name = "rusted-core"

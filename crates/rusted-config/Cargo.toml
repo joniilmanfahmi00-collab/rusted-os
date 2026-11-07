@@ -1,7 +1,10 @@
-[package]
+﻿[package]
 name = "rusted-config"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
 repository.workspace = true
 description = "Configuration management for Rusted OS."
+
+[dependencies]
+rusted-core = { version = "0.1.0", path = "../rusted-core" }
