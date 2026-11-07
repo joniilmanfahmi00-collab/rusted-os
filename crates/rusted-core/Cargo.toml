@@ -1,0 +1,7 @@
+[package]
+name = "rusted-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Foundational types and lifecycle primitives for Rusted OS."
