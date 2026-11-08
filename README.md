@@ -190,6 +190,9 @@ rusted-os/
 ├── ARCHITECTURE.md
 ├── ROADMAP.md
 ├── AGENT.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
 ├── LICENSE
 ├── crates/
 │   ├── rusted-core/
@@ -241,15 +244,15 @@ These commands describe the intended development workflow; they do not imply tha
 
 ## Contributing
 
-Contributions, discussions, ideas, and technical feedback are welcome.
+Contributions, discussions, ideas, and technical feedback are welcome. Please start with [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 Before contributing:
 
 1. Read [ARCHITECTURE.md](ARCHITECTURE.md).
 2. Review [ROADMAP.md](ROADMAP.md).
-3. Follow the development rules in [AGENT.md](AGENT.md).
+3. Follow the development rules in [AGENT.md](AGENT.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 4. Check existing issues before starting substantial work.
-5. Discuss major architectural changes before implementation.
+5. Discuss major architectural changes (with an ADR proposal) before implementation.
 
 We value:
 
@@ -289,3 +292,4 @@ Our priority is to establish a reliable foundation before pursuing a complete de
   <br />
   <sub>Rusted OS — An open-source operating system project.</sub>
 </p>
+
